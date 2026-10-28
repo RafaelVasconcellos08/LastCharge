@@ -2,14 +2,14 @@ Unity Editor version:    6000.3.2f1 (a9779f353c9b)
 Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 26.6 (Build 25G72)
+macOS version:           Version 26.6.1 (Build 25G76)
 Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-10-28T11:43:05Z
+Date:                    2026-10-28T10:50:12Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24120" at "2026-10-28T11:43:05.576583Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24130" at "2026-10-28T10:50:12.793477Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/MacOS/Unity
@@ -19,13 +19,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/u24120/Documents/GitHub/LastCharge/Last charge
+/Users/u24130/Documents/GitHub/LastCharge/Last charge
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50657
+49519
 -licensingIpc
-LicenseClient-u24120
+LicenseClient-u24130
 -job-worker-count
 3
 -background-job-worker-count
@@ -33,8 +33,8 @@ LicenseClient-u24120
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/u24120/Documents/GitHub/LastCharge/Last charge
-/Users/u24120/Documents/GitHub/LastCharge/Last charge
+Successfully changed project path to: /Users/u24130/Documents/GitHub/LastCharge/Last charge
+/Users/u24130/Documents/GitHub/LastCharge/Last charge
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/u24120/Documents/GitHub/LastCharge/
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8326848896]  Target information:
+Player connection [8335532416]  Target information:
 
-Player connection [8326848896]  * "[IP] 177.220.18.79 [Port] 0 [Flags] 2 [Guid] 3879229189 [EditorId] 3879229189 [Version] 1048832 [Id] OSXEditor(0,lapa37.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8335532416]  * "[IP] 177.220.18.80 [Port] 0 [Flags] 2 [Guid] 3129480747 [EditorId] 3129480747 [Version] 1048832 [Id] OSXEditor(0,lapa38.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8326848896] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8326848896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8335532416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8335532416] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,11 +87,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/u24120/Documents/GitHub/LastCharge/Last charge/Assets
+[Subsystems] Discovering subsystems at path /Users/u24130/Documents/GitHub/LastCharge/Last charge/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -108,54 +108,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56245
-Begin MonoManager ReloadAssembly
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56361
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              c59331a6fce642239a71436090f1984d
-  Correlation Id:          0432553b35e13ea5535d3a0dc8167737
-  External correlation Id: 4680986523864059378
-  Machine Id:              k0Lgx78tCJNT8aM1AfvriDlXiAs=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24120" (connect: 0.00s, validation: 0.00s, handshake: 0.76s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24120-notifications" at "2026-10-28T11:43:06.336648Z"
-[Licensing::Module] Licensing Background thread has ended after 0.76s
+  Session Id:              604069ec561a47c59f283ea227b45c52
+  Correlation Id:          549b673d5b2aa7d404db20dafc408a53
+  External correlation Id: 8608872699829752126
+  Machine Id:              ENGPpqlSxbUwV3nrP3eDuhqRORk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24130" (connect: 0.00s, validation: 0.01s, handshake: 0.60s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24130-notifications" at "2026-10-28T10:50:13.402979Z"
+[Licensing::Module] Licensing Background thread has ended after 0.61s
+Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001467 seconds.
-- Loaded All Assemblies, in  0.333 seconds
+Registered in 0.001186 seconds.
+- Loaded All Assemblies, in  0.296 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.296 seconds
-Domain Reload Profiling: 628ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.286 seconds
+Domain Reload Profiling: 582ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (296ms)
+	FinalizeReload (287ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
+		SetupLoadedEditorAssemblies (252ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (33ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,12 +167,12 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 4674159489065-UnityPersXXXX
+  Id: 4674159505455-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,35 +180,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1095ms
-	BeginReloadAssembly (94ms)
+- Finished resetting the current domain, in  0.513 seconds
+Domain Reload Profiling: 995ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (263ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (224ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (114ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (552ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (513ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -220,347 +220,547 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6185 unused Assets / (3.2 MB). Loaded Objects now: 6981.
-Memory consumption went from 149.9 MB to 146.6 MB.
-Total: 7.892583 ms (FindLiveObjects: 0.731625 ms CreateObjectMapping: 0.259375 ms MarkObjects: 5.153417 ms  DeleteObjects: 1.747750 ms)
+Unloading 6185 unused Assets / (4.5 MB). Loaded Objects now: 6981.
+Memory consumption went from 142.0 MB to 137.5 MB.
+Total: 7.327708 ms (FindLiveObjects: 0.668417 ms CreateObjectMapping: 0.223750 ms MarkObjects: 4.806041 ms  DeleteObjects: 1.629292 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2321.047968 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat
-  artifactKey: Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat using Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76602cbba33ccd64d7e98bf4dc09ca36') in 0.045535625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Column_01_Top.FBX
-  artifactKey: Guid(39b1bd6e779034598a04e38901990489) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Column_01_Top.FBX using Guid(39b1bd6e779034598a04e38901990489) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf022e01aa2a04c0973e3330bf0d81f3') in 0.034784917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab
-  artifactKey: Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab using Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '136af269a879562fffff0d535de0fa15') in 0.003004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01_MaskMap.png
-  artifactKey: Guid(c710209e11fb1444b9aabba9ccaa49e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01_MaskMap.png using Guid(c710209e11fb1444b9aabba9ccaa49e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49c787daabaf0166043add1aee23a155') in 0.0246565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_01.FBX
-  artifactKey: Guid(a335669a69f934699847642d88414623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_01.FBX using Guid(a335669a69f934699847642d88414623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6ff82c35f6ed61f3feea525f1d3e713') in 0.0050285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Left_01.FBX
-  artifactKey: Guid(7fe4a827493384beea453a7d680fa266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Left_01.FBX using Guid(7fe4a827493384beea453a7d680fa266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b24019333d87cb39b4a45d120c7e5b1') in 0.006039625 seconds
+  Time since last request: 1138.998419 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_02.FBX
+  artifactKey: Guid(638f44b41e0a6471486ec2c4e9ca96fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_02.FBX using Guid(638f44b41e0a6471486ec2c4e9ca96fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c218646227a65d384467def92a4ffe8') in 0.0694645 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000052 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(08cacf6f389e8e742b7e04b3c29ed7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(08cacf6f389e8e742b7e04b3c29ed7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37ed25885e0424b5d3b75501243a3bbe') in 0.002002834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt
+  artifactKey: Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt using Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18cb58806ce17cda814065f8303eca10') in 0.001976458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage
+  artifactKey: Guid(6b5816329a7a88247af7744090f40e41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage using Guid(6b5816329a7a88247af7744090f40e41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb53caef352771eed31708f4a985a806') in 0.001598917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab
+  artifactKey: Guid(0f9396310131e47e3979f1a7cb96c071) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab using Guid(0f9396310131e47e3979f1a7cb96c071) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f4f68447816ca124b85ca49826a0d55') in 0.002516333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_01.FBX
+  artifactKey: Guid(a335669a69f934699847642d88414623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_01.FBX using Guid(a335669a69f934699847642d88414623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '888dff4e986dd8bd4887f14d72b8a15c') in 0.005636959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Left_01.FBX
+  artifactKey: Guid(7fe4a827493384beea453a7d680fa266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Left_01.FBX using Guid(7fe4a827493384beea453a7d680fa266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a507fd876017c9605a57e7067f9a101') in 0.004743042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit_URP/Global Volume Profile.asset
   artifactKey: Guid(a34ad9c64ca3f9242b2fee80fbea7347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/Global Volume Profile.asset using Guid(a34ad9c64ca3f9242b2fee80fbea7347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '748411a0b95115e7fcddc5cce4c50471') in 0.005558667 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/Global Volume Profile.asset using Guid(a34ad9c64ca3f9242b2fee80fbea7347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fd8a8770e79ccbd41d3471d52912981') in 0.005018333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab
-  artifactKey: Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab using Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a958538adab746ded0d035d4ed2eede') in 0.007224958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png
-  artifactKey: Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png using Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7db4fea7da2a6d10e8796ca19ed3fe7') in 0.005767709 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(80a9031d8e3543d41b7d4059536a6fef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(80a9031d8e3543d41b7d4059536a6fef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '232749ae9360b7744db42257adcf5553') in 0.001539458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab
-  artifactKey: Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab using Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc57ec262d852399e10a8b4a1713e007') in 0.002255666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000043 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Camera Profile.asset
+  artifactKey: Guid(66fe30987fca4e747985c93aa3738821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Camera Profile.asset using Guid(66fe30987fca4e747985c93aa3738821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2add80b6243c0907f317e31f1c6f5a6a') in 0.001494208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_Small_01.FBX
-  artifactKey: Guid(f6768e02308fe4b40ba12aece1070179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_Small_01.FBX using Guid(f6768e02308fe4b40ba12aece1070179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9becfe6a5f23b3499451e14afcd25a58') in 0.005760334 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_03.prefab
+  artifactKey: Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_03.prefab using Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b7910bb174660174fcb8e74fac10acf') in 0.002396791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(cfd4043fd722d9c4496ac5ae1084fa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineGlobalSettings.asset using Guid(cfd4043fd722d9c4496ac5ae1084fa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51866f97a0425c32e7f9ba603a12165e') in 0.050852584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity
+  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ccc412a79def9f739219d47b91d6c5e') in 0.005216708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Large_01.FBX
+  artifactKey: Guid(c7f0be1a7661a448388e936acefcd607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Large_01.FBX using Guid(c7f0be1a7661a448388e936acefcd607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89340aa861588166d6719616369eb22b') in 0.004449666 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Smal_01.FBX
-  artifactKey: Guid(2c0055bf80c5d48de99a4610f68413ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Smal_01.FBX using Guid(2c0055bf80c5d48de99a4610f68413ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e156f42baf6f1699a04d800a2dca562') in 0.004684334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Barking_Dog/Common Scripts/MouseLook.cs
-  artifactKey: Guid(419e976ce3354ca4895c43e78bbd4dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/Common Scripts/MouseLook.cs using Guid(419e976ce3354ca4895c43e78bbd4dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1efb4051a5819356c6e58b571cf1b5e7') in 0.001766125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Fan_01.FBX
-  artifactKey: Guid(64d2cd6749bca4f3892daf258e7c68a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Fan_01.FBX using Guid(64d2cd6749bca4f3892daf258e7c68a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94f3e667abf841c2983566fb31b66514') in 0.005039334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png
-  artifactKey: Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png using Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6477c75795da801393d05fe6c1762fbe') in 0.003870833 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '830c68916b1b0f0c126dfc5fb9f1689d') in 0.001392625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '950ebf12d51ae13b86f4794f944d35a8') in 0.001601167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_01.prefab
+  artifactKey: Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_01.prefab using Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9103e0b4cdbae509d0d35fc6bfc17ccb') in 0.005309625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 149
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab
-  artifactKey: Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab using Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5f68134760263cb8b429ca434dfdc5f') in 0.003908333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 182
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000027 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Door_01.FBX
   artifactKey: Guid(7387acdd6d3eb4b1d80e5da2645047c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Door_01.FBX using Guid(7387acdd6d3eb4b1d80e5da2645047c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dfa76b4e32a37c83082e530d60690de') in 0.005934541 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Door_01.FBX using Guid(7387acdd6d3eb4b1d80e5da2645047c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '528653db53f00e149eb932e7c1f5ade5') in 0.004323 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
+  Time since last request: 0.000046 seconds.
   path: Assets/Settings/SampleSceneProfile.asset
   artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdb300a96a166749daf6e9384d1e9838') in 0.001852333 seconds
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89922bfc0e073b0a3be79b44ba46728e') in 0.002209417 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Barking_Dog/Common Scripts/Turn_Move.cs
-  artifactKey: Guid(5009e9d1b4124d742b8cdf74e3c3f8a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/Common Scripts/Turn_Move.cs using Guid(5009e9d1b4124d742b8cdf74e3c3f8a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '925313aecc16ba3232b1b776dcc551c1') in 0.00179525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting
-  artifactKey: Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting using Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85568a3ac1a6a7ac42d4f7a9bc581871') in 0.006095667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2ca0370304b043a479ded95f32ea75a') in 0.002041709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Simple_01.FBX
-  artifactKey: Guid(8386fa60b76534bc0856f1d023537484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Simple_01.FBX using Guid(8386fa60b76534bc0856f1d023537484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebc453bb138ece7f75ac656d82a64f78') in 0.005775292 seconds
+  Time since last request: 0.000062 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Light_01.FBX
+  artifactKey: Guid(45d2e8119c39748209c49281be62d9a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Light_01.FBX using Guid(45d2e8119c39748209c49281be62d9a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '518adb907ffe7266357019dd2a246052') in 0.004557125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab
-  artifactKey: Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab using Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce307292c40e354dbceddfb80fa4de5b') in 0.002180667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ba34791d431436d777c8b7acf4084c2') in 0.00225325 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab6be39e4bed5a4d98cabe19b2061b78') in 0.001768 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting
-  artifactKey: Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting using Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d781c1ef42e25043e8bd11476a40e7d') in 0.002742042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab
-  artifactKey: Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab using Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d90114e7d76d957ed87eb2811221e24') in 0.002354917 seconds
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_01.prefab
+  artifactKey: Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_01.prefab using Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eb846ce097de7e86430d96e9da3f1e4') in 0.002084583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Simple_01.FBX
+  artifactKey: Guid(8386fa60b76534bc0856f1d023537484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Simple_01.FBX using Guid(8386fa60b76534bc0856f1d023537484) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7994dc758fe5ed3ff304ba5fc49b958') in 0.004428708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab
+  artifactKey: Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab using Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2984914b0d6f91fde84a06964ed9722') in 0.00211425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02bcc60b62fba0a218d5947fe2133146') in 0.002621875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_02.prefab
+  artifactKey: Guid(56f887c8f9289447895ae8a07be226ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_02.prefab using Guid(56f887c8f9289447895ae8a07be226ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '229b98a4729491586b95d6f1b791aa71') in 0.002853166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_04.prefab
+  artifactKey: Guid(338a3a19b542e4a5bae99feecf242132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_04.prefab using Guid(338a3a19b542e4a5bae99feecf242132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14f17de58d340487acfc4090ebd0e7e7') in 0.002934708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
   path: Assets/InputSystem_Actions.inputactions
   artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f9cdbb19e0a57ecc192bf896142e6ba') in 0.1032365 seconds
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57a4a7c94dc2f7344703ffec3eeb444f') in 0.089505792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png
-  artifactKey: Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png using Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99342d490daa893b87f499d5e969f55d') in 0.005734875 seconds
+  Time since last request: 0.000059 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat
+  artifactKey: Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat using Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef18e0c32106d0d72440fbd1c46953a7') in 0.012194125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
+  Time since last request: 0.000056 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_HalfArc_90_03.FBX
   artifactKey: Guid(38b9333c840464ce789e1b0aff1b89ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_HalfArc_90_03.FBX using Guid(38b9333c840464ce789e1b0aff1b89ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd44e1a80b6f43f9d4f2e319e7e017265') in 0.004781458 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_HalfArc_90_03.FBX using Guid(38b9333c840464ce789e1b0aff1b89ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7eea0b42e12b07c2191f1a262da96de') in 0.004534208 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
+  Time since last request: 0.000060 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Light_01.prefab
   artifactKey: Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Light_01.prefab using Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de2c913a6c3f4fa0485e35b64d675fdb') in 0.003508416 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Light_01.prefab using Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84f324648fe9463f8d53081851a42ba0') in 0.002224291 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
+  Time since last request: 0.000040 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Simple_01.prefab
   artifactKey: Guid(a4c18952442944083b1fddc06ba477c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Simple_01.prefab using Guid(a4c18952442944083b1fddc06ba477c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edb505f36275706a98b28284583b0074') in 0.002231458 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Simple_01.prefab using Guid(a4c18952442944083b1fddc06ba477c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6268929a0fb195926c14f065599b1c88') in 0.002089875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
+  Time since last request: 0.000058 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
   artifactKey: Guid(2251e05c41a2e0b489b4326e560b2750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(2251e05c41a2e0b489b4326e560b2750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3428b08a2a92b103c8a66e0b9f17c7a') in 0.002258541 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(2251e05c41a2e0b489b4326e560b2750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7352f553a33cb73843cdb8abc8e52345') in 0.002189583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
+  Time since last request: 0.000032 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_01.FBX
   artifactKey: Guid(76e15ece664ee41ada45b8500a673f22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_01.FBX using Guid(76e15ece664ee41ada45b8500a673f22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9aaae8b045fb08692007ae09c93ced8') in 0.004524541 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_01.FBX using Guid(76e15ece664ee41ada45b8500a673f22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd589b7e21b853d1bb0ae03463cbc99bb') in 0.004137583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
+  Time since last request: 0.000038 seconds.
   path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
   artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36840c4db58ea02b978e4c9adee4b50c') in 0.038141542 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e18d154f3158a33800f5bbf7df8d8a1f') in 0.008219625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e326e01e7bdbb222b553a1e7cd30a3c7') in 0.00278825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000039 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_02.prefab
+  artifactKey: Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_02.prefab using Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b669ab01900cfaee214bb57e9833343') in 0.002161583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_01.FBX
-  artifactKey: Guid(13aac7515de6a4dd4b3c7979f7dbe7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_01.FBX using Guid(13aac7515de6a4dd4b3c7979f7dbe7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8240fb8b707d442f9e1333d8494b8b82') in 0.005064541 seconds
+  Time since last request: 0.000056 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_Small_01.prefab
+  artifactKey: Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_Small_01.prefab using Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8184256608e8e9a6ffe4f52219b833c1') in 0.001888959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Large_01.prefab
+  artifactKey: Guid(4d57a31eab232457da9acbcc32af22cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Large_01.prefab using Guid(4d57a31eab232457da9acbcc32af22cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd52821fb5ab4723908751c6a3da0df8f') in 0.001741167 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
+  Time since last request: 0.000068 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_01.FBX
   artifactKey: Guid(318fc5659f68549feb9d55d15a12de2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_01.FBX using Guid(318fc5659f68549feb9d55d15a12de2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85baca78f294d1cd9b5b1203e9259684') in 0.004431875 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_01.FBX using Guid(318fc5659f68549feb9d55d15a12de2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5ef225e4f1527c8bb1e25ad2c65e159') in 0.004309166 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab
-  artifactKey: Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab using Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc1bf544dad811e2fa87ebb209d2e986') in 0.002262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Arch_01.FBX
+  artifactKey: Guid(ff2448abfdccb4826856bab7a63c6d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Door_Arch_01.FBX using Guid(ff2448abfdccb4826856bab7a63c6d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67923750eeaee0451d022668ad51da66') in 0.004405042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f85d53c44e75bf64d938e45ab236ded') in 0.045052542 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae0fb8acd68631d2521083e56486227b') in 0.020935667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab
-  artifactKey: Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab using Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8ad137b6c7efb15009809b45d14a248') in 0.002521417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000057 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3ea700a08cad5242dc8f7e1392f1b2b') in 0.0130185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01.png
   artifactKey: Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01.png using Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3909ece379efaa7fcfa9fb7424e93ec7') in 0.004515167 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01.png using Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35a1d1a79101b4fd479870d8468e89e7') in 0.019415083 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.167886 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_02.prefab
+  artifactKey: Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_02.prefab using Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2f826464fad1ee139517b93e4db04ea') in 0.002531416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(08cacf6f389e8e742b7e04b3c29ed7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(08cacf6f389e8e742b7e04b3c29ed7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3492a9339929730df24b407c830b8dd7') in 0.002632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab
+  artifactKey: Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab using Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a51757ab65cc129a5f86b4a16e822f1') in 0.002750916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset
+  artifactKey: Guid(e44afd6ab1a0a9d449b94c79d8d0ed0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset using Guid(e44afd6ab1a0a9d449b94c79d8d0ed0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac540515a5ee68d87127e3818b9673b5') in 0.004198542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(80a9031d8e3543d41b7d4059536a6fef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(80a9031d8e3543d41b7d4059536a6fef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4e8114b70a934ce722b6aa98207c628') in 0.001573959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab
+  artifactKey: Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab using Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec493310cba72fceaf81c3e443ea41b1') in 0.010087625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab
+  artifactKey: Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab using Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76ebac499ff7488cb27e94205f7f7e88') in 0.002495667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_01.prefab
+  artifactKey: Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_01.prefab using Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eaf3199ee3464d700169e1d07bd6d887') in 0.003591125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 149
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(68b57ef409c836449ae96bf517b46a75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(68b57ef409c836449ae96bf517b46a75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6d15faf66f674f1fcac3dbf7e78fa5e') in 0.001903708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_01.prefab
+  artifactKey: Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_01.prefab using Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caecfe1fa39014c99a20f31c3895ec14') in 0.002592459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_02.prefab
+  artifactKey: Guid(56f887c8f9289447895ae8a07be226ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_02.prefab using Guid(56f887c8f9289447895ae8a07be226ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55acdb37edec84cb3035b25f4b9cb90e') in 0.003161916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab
+  artifactKey: Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab using Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d1e87e3ebab79b4ca83fe9e690ee2a7') in 0.002747708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat
+  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4195301f0d2d0fc4243f09adbac4b99a') in 0.004246542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Light_01.prefab
+  artifactKey: Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Light_01.prefab using Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0856fe94e662324b5e5f3b4d1edd32a') in 0.002329083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Smal_01.prefab
+  artifactKey: Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Smal_01.prefab using Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a8ff424c95d5a6e58eb0ff04126ecaf') in 0.0026445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(a238d0ca2d6a8274bb54e17bedd92137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(a238d0ca2d6a8274bb54e17bedd92137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '523f8a5b025895b241150cdff5ac4637') in 0.001948334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_02.prefab
+  artifactKey: Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_02.prefab using Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a05a3201130d1880c758ebc0fcd2b84') in 0.002479541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab
+  artifactKey: Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab using Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7d65183494b0b4894c8a4853524b9f0') in 0.002792333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab
+  artifactKey: Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab using Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a0a099dfea3b522d44fc400798883bd') in 0.002613333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.805414 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat
+  artifactKey: Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat using Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3125c611d739e04f2a37cb824b41d8c9') in 0.003306584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_URP/Global Volume Profile.asset
+  artifactKey: Guid(a34ad9c64ca3f9242b2fee80fbea7347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/Global Volume Profile.asset using Guid(a34ad9c64ca3f9242b2fee80fbea7347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ccab9183b8ccd0ac537f5c85d65186d') in 0.003909542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity
+  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91f8fe3b4c385be0fb87586c5dbabc7d') in 0.00275725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab
+  artifactKey: Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab using Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb0372697a24f28fca703e7b20f3943') in 0.003636625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 182
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat
+  artifactKey: Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat using Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12ac67da3746595e2a200e5cc964ac30') in 0.002370958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(fba3664447980154cb862929c7189761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset.asset using Guid(fba3664447980154cb862929c7189761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23a5b0d7f2b1bb06dc85a342c04e57e4') in 0.008879917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 

@@ -7,9 +7,9 @@ Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-10-28T10:50:12Z
+Date:                    2026-10-21T12:28:17Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24130" at "2026-10-28T10:50:12.794533Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24151" at "2026-10-21T12:28:17.404368Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/MacOS/Unity
@@ -19,13 +19,11 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/u24130/Documents/GitHub/LastCharge/Last charge
+/Users/u24151/Documents/Last charge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49519
--licensingIpc
-LicenseClient-u24130
+49546
 -job-worker-count
 3
 -background-job-worker-count
@@ -33,8 +31,8 @@ LicenseClient-u24130
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/u24130/Documents/GitHub/LastCharge/Last charge
-/Users/u24130/Documents/GitHub/LastCharge/Last charge
+Successfully changed project path to: /Users/u24151/Documents/Last charge
+/Users/u24151/Documents/Last charge
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -70,12 +68,12 @@ Successfully changed project path to: /Users/u24130/Documents/GitHub/LastCharge/
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8335532416]  Target information:
+Player connection [8522326400]  Target information:
 
-Player connection [8335532416]  * "[IP] 177.220.18.80 [Port] 0 [Flags] 2 [Guid] 2231032413 [EditorId] 2231032413 [Version] 1048832 [Id] OSXEditor(0,lapa38.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8522326400]  * "[IP] 177.220.18.81 [Port] 0 [Flags] 2 [Guid] 1079932862 [EditorId] 1079932862 [Version] 1048832 [Id] OSXEditor(0,lapa39.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8335532416] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8335532416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8522326400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8522326400] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,11 +85,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/u24130/Documents/GitHub/LastCharge/Last charge/Assets
+[Subsystems] Discovering subsystems at path /Users/u24151/Documents/Last charge/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -108,53 +106,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56359
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56434
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              b149a67bddf74bd1bc41aab3fb54b9f4
-  Correlation Id:          549b673d5b2aa7d404db20dafc408a53
-  External correlation Id: 8822098110107761975
-  Machine Id:              ENGPpqlSxbUwV3nrP3eDuhqRORk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24130" (connect: 0.00s, validation: 0.02s, handshake: 0.61s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24130-notifications" at "2026-10-28T10:50:13.422282Z"
-[Licensing::Module] Licensing Background thread has ended after 0.63s
+  Session Id:              c4c6708a1c8745feb6956dc375a3194b
+  Correlation Id:          e60275189a4f58d07421e49afbbb7968
+  External correlation Id: 4178958666117188688
+  Machine Id:              JHVh4SLqihl11SJXt3XDS5sGPSg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24151" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24151-notifications" at "2026-10-21T12:28:18.094761Z"
+[Licensing::Module] Licensing Background thread has ended after 0.69s
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001187 seconds.
-- Loaded All Assemblies, in  0.296 seconds
+Registered in 0.001475 seconds.
+- Loaded All Assemblies, in  0.338 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.286 seconds
-Domain Reload Profiling: 582ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 646ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (131ms)
-		LoadAssemblies (101ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (128ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (122ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (286ms)
+	FinalizeReload (308ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (272ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (100ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (111ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -167,12 +165,12 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 4674159505455-UnityPersXXXX
+  Id: 4674159538209-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.483 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,35 +178,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 998ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1049ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (224ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (112ms)
 			BuildScriptInfoCaches (26ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (516ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (534ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (395ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (233ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -220,870 +218,271 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6185 unused Assets / (4.5 MB). Loaded Objects now: 6981.
-Memory consumption went from 141.8 MB to 137.3 MB.
-Total: 7.292708 ms (FindLiveObjects: 0.688833 ms CreateObjectMapping: 0.204208 ms MarkObjects: 4.774417 ms  DeleteObjects: 1.625041 ms)
+Unloading 6183 unused Assets / (4.1 MB). Loaded Objects now: 6979.
+Memory consumption went from 141.8 MB to 137.6 MB.
+Total: 8.019208 ms (FindLiveObjects: 0.400375 ms CreateObjectMapping: 0.288208 ms MarkObjects: 5.320542 ms  DeleteObjects: 2.009583 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1138.998374 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat
-  artifactKey: Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat using Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a55465f3207643ee3137b91d475aa4a') in 0.042235375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Column_01_Top.FBX
-  artifactKey: Guid(39b1bd6e779034598a04e38901990489) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Column_01_Top.FBX using Guid(39b1bd6e779034598a04e38901990489) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7708f65d7af04324eabd0de90f1f2514') in 0.033071583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab
-  artifactKey: Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Fan_01.prefab using Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da63affcba258beb92dc9c462a999673') in 0.003111083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01_MaskMap.png
-  artifactKey: Guid(c710209e11fb1444b9aabba9ccaa49e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01_MaskMap.png using Guid(c710209e11fb1444b9aabba9ccaa49e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8c922a3af955e16c3319adbc67db400') in 0.02352975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset
-  artifactKey: Guid(e44afd6ab1a0a9d449b94c79d8d0ed0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset using Guid(e44afd6ab1a0a9d449b94c79d8d0ed0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 262: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 265: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 273: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 276: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 284: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 358: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 361: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 367: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 433: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 476: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 492: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 518: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 262: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 265: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 273: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 276: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 284: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 358: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 361: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 367: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 433: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 476: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 492: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
-Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings 2.asset: [Parser Failure at line 518: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetDependencies (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:650)
-UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:342)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:205)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs line 650]
-
- -> (artifact id: 'b7bde8d59dfbcbdb1cdca8beb5b2458d') in 0.006875542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset
-  artifactKey: Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset using Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '477b148326d4742b5cb85cd83282fdc9') in 0.0019345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3670.302267 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6252fbb9b840b1fb5f746fb0a520959e') in 0.14412525 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f2c83db532fb0344e4c96b21a0e58ba') in 0.002685042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab
-  artifactKey: Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab using Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b8425ec27d76148fb32d77daa59e1db') in 0.006370042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png
-  artifactKey: Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png using Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed1bbebfb26bf92315f5fd7bf53045fb') in 0.005374833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab
-  artifactKey: Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab using Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf59bb0c518d899adb0b1178d2005671') in 0.002293708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_Small_01.FBX
-  artifactKey: Guid(f6768e02308fe4b40ba12aece1070179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Floor_Small_01.FBX using Guid(f6768e02308fe4b40ba12aece1070179) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b81a36b8c84b377088c1d9cb896da7f') in 0.004496375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Smal_01.FBX
-  artifactKey: Guid(2c0055bf80c5d48de99a4610f68413ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Roof_Angle_Smal_01.FBX using Guid(2c0055bf80c5d48de99a4610f68413ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d9954654a5a79ec52325e210b4215cf') in 0.005391167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Barking_Dog/Common Scripts/MouseLook.cs
-  artifactKey: Guid(419e976ce3354ca4895c43e78bbd4dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/Common Scripts/MouseLook.cs using Guid(419e976ce3354ca4895c43e78bbd4dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c5b7f13145926385d35db5903bc883e') in 0.001900875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Fan_01.FBX
-  artifactKey: Guid(64d2cd6749bca4f3892daf258e7c68a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Fan_01.FBX using Guid(64d2cd6749bca4f3892daf258e7c68a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '765f4cfa8754d019cc935e0047816e85') in 0.005157042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png
-  artifactKey: Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png using Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad30cb004110b673ba5802d2fe4c1d09') in 0.00390175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab
-  artifactKey: Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab using Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ace8f09dc55e16e16d667cc8adb0aaef') in 0.004150667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 182
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset
-  artifactKey: Guid(68b57ef409c836449ae96bf517b46a75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(68b57ef409c836449ae96bf517b46a75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e0832340b3330591ad481e434a242d2') in 0.001691375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Metal_01.tif
-  artifactKey: Guid(1d3de45b986d240139bd085299915265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Metal_01.tif using Guid(1d3de45b986d240139bd085299915265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7556f822bd9463c7e5fdb735ea5612c') in 0.006559375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Barking_Dog/Common Scripts/Turn_Move.cs
-  artifactKey: Guid(5009e9d1b4124d742b8cdf74e3c3f8a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/Common Scripts/Turn_Move.cs using Guid(5009e9d1b4124d742b8cdf74e3c3f8a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab52fb5a2eb05f9d7f61f8173acbd413') in 0.001399834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting
-  artifactKey: Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting using Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c3b0559d816e24e1690111ff3f9495d') in 0.007294708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd21d65167c9716c0523cf9583649aa73') in 0.00342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da364958310fff43bdfa0932d9b06d07') in 0.027231875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec64d0a3d42edc24faa701176c9d0aca') in 0.0023715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting
-  artifactKey: Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting using Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5776518c459ca8b436bc52bfc3b5719c') in 0.002748084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab
-  artifactKey: Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Door_01.prefab using Guid(1e6809cccc6f04f01b0819da314e428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b8174ca2da1ae6dd82416adc9412913') in 0.00207375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_HalfArc_90_02.FBX
-  artifactKey: Guid(fcd3445ec3ee04cb285c72daf3ae46ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_HalfArc_90_02.FBX using Guid(fcd3445ec3ee04cb285c72daf3ae46ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '107cfef87387dd14065c2d29c0df48ee') in 0.004648125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '565e87a1d77936b8d8de25f1fdfa1143') in 0.013943667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_01.prefab
-  artifactKey: Guid(c27c7521daec24863af069554ea1fb47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_01.prefab using Guid(c27c7521daec24863af069554ea1fb47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39b71ee0e0314c8343762eaceb44d96e') in 0.002242667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat
-  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ffb5cb3c19b3beca35b48e9e8ea41ca') in 0.017500084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png
-  artifactKey: Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png using Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c1bc61ce68157a10da476a1b1c1e28a') in 0.005321625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage
-  artifactKey: Guid(d801612c009c9874ea7319b2d587744b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage using Guid(d801612c009c9874ea7319b2d587744b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd06d3c23152c873b378a0ee1101dcaab') in 0.001470334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/Test_MapSettings.lighting
-  artifactKey: Guid(13754f745d34e1b41bb707ccd6e13245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/Test_MapSettings.lighting using Guid(13754f745d34e1b41bb707ccd6e13245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
- -> (artifact id: '569e24c3415d021754193377ef412aa0') in 0.002571417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Smal_01.prefab
-  artifactKey: Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Smal_01.prefab using Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4a4349fa98649dba500f34dfb408cf4') in 0.003146416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_02.prefab
-  artifactKey: Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_02.prefab using Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b39d85e0efa90d3de709f516ba978ce') in 0.001973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(a238d0ca2d6a8274bb54e17bedd92137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(a238d0ca2d6a8274bb54e17bedd92137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Unable to parse file Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset: [Parser Failure at line 417: Expected closing '}']
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:GetMainAssetTypeAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:146)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 146]
-
- -> (artifact id: '69b0c641c90069c50498f525e66129a6') in 0.002364625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(fba3664447980154cb862929c7189761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset.asset using Guid(fba3664447980154cb862929c7189761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da207b43bcd59b3189a3a5b149979421') in 0.007861125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/DefaultVolumeProfile.asset
-  artifactKey: Guid(60b5ff46efe7c094486e0124a5b0c5ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/DefaultVolumeProfile.asset using Guid(60b5ff46efe7c094486e0124a5b0c5ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39674e77ba2a22d8b11c9d8471dd729e') in 0.003115708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
   path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
   artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2587080977ffcc2125214485cb8a19a2') in 0.00144525 seconds
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '224d86fe2a52a27bbde70d9c746c71a9') in 0.009409833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_01.FBX
-  artifactKey: Guid(13aac7515de6a4dd4b3c7979f7dbe7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Wall_Arc_90_01.FBX using Guid(13aac7515de6a4dd4b3c7979f7dbe7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e12a28acbebd9622e5bd837192e5ea5') in 0.004547375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(e5449cb1ea83ceb44892ee0203bb908d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset_Renderer.asset using Guid(e5449cb1ea83ceb44892ee0203bb908d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32f0e6122145b23d67484f6f50358b2b') in 0.004402834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab
-  artifactKey: Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_01.prefab using Guid(e4f34474191354a5688752acf8cf95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15263fe369ca8e379ca3e6e080b7da66') in 0.002224125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae9cf7d6323e15861f71c64f8a68e180') in 0.003704333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat
-  artifactKey: Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat using Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd34bd80094f9b9e0fbded76ad8f6b277') in 0.002725375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab
-  artifactKey: Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Arc_90_02.prefab using Guid(13990f94448cc49c08e917134d8b0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8271bfb814b04d26f3c3ac2a4de060f9') in 0.002349417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_02.mat
-  artifactKey: Guid(f2d2b923c34c69a489c89833cda46a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_02.mat using Guid(f2d2b923c34c69a489c89833cda46a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46792531eb5cb44f9684d7d10894597e') in 0.002118625 seconds
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '439b6cb192f6e1bc21d2083554341e79') in 0.002679542 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.457404 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage
-  artifactKey: Guid(6b5816329a7a88247af7744090f40e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage using Guid(6b5816329a7a88247af7744090f40e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ccd5cd2f30ac9fabb86259fc9055ab') in 0.010398667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.202030 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '998e4a2a84ab966ef82a04f065c693f8') in 0.003977417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.481438 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(1c17702f14720e34e8b70bf040a70719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9e0c1ac88fd76640cfdd6c66325cc75') in 0.002338792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat
-  artifactKey: Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_03.mat using Guid(9356d55aac3d00f43be762d08365a296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5522b15c76c150e1d9f9271009a6deb8') in 0.002234833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt
-  artifactKey: Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt using Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c8696d454ffd32b521c60af12b885ce') in 0.001783208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab
-  artifactKey: Guid(0f9396310131e47e3979f1a7cb96c071) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab using Guid(0f9396310131e47e3979f1a7cb96c071) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9af0ca0857e6d4eba0c4bdb25f623243') in 0.002808375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset
-  artifactKey: Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset using Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9361f90f52bea2053735ae87dd6c2a09') in 0.017923792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_03.prefab
-  artifactKey: Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_HalfArc_90_03.prefab using Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e0c9751a957cbdf06b5d28258fb814d') in 0.002542791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity
-  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53b4faa02d7b2021002d659c536f5d51') in 0.002988375 seconds
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4517fe76b9c45b71b710f5230d20f584') in 0.00173775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ea4043aa1a41e9aa91f4393e80726df') in 0.079543625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab
-  artifactKey: Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_03.prefab using Guid(39b43e271567b4134a12f482c52c8a0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321a7109784a77580b7fbbc351d78d1b') in 0.004020084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 186
+  Time since last request: 13.588911 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(e7479cb5e24f841519c1060127d7523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(e7479cb5e24f841519c1060127d7523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a20877b38a5e959212b9c1414c86db34') in 0.000515542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting
-  artifactKey: Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/Test_MapSettings.lighting using Guid(7061d38219fa56744b8eada921152b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9cd842223c41a68183dea3a74bd5517') in 0.004186125 seconds
+  Time since last request: 0.961102 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(e7479cb5e24f841519c1060127d7523a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects using Guid(e7479cb5e24f841519c1060127d7523a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9320858126a8d51b5391fd49cb809751') in 0.001705583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x172113000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.446 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1032ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6181 unused Assets / (3.4 MB). Loaded Objects now: 6999.
+Memory consumption went from 156.3 MB to 152.9 MB.
+Total: 7.365500 ms (FindLiveObjects: 0.403791 ms CreateObjectMapping: 0.242917 ms MarkObjects: 5.148167 ms  DeleteObjects: 1.569833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab
-  artifactKey: Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_01.prefab using Guid(c76d2d3504ddb4847940a815cad04644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a31546a561daaf7d8aa4286705b554a') in 0.002945833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 42.044790 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit
+  artifactKey: Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit using Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94daf928ade2518c18a79e026db2a929') in 0.001330417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_04.prefab
-  artifactKey: Guid(338a3a19b542e4a5bae99feecf242132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Room_Big_Part_04.prefab using Guid(338a3a19b542e4a5bae99feecf242132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1659df1a1438a4732e1422e2509f64f') in 0.002877667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
+  Time since last request: 5.206093 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs
+  artifactKey: Guid(d1f1e35ed5fd842f7b91e200e0e5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs using Guid(d1f1e35ed5fd842f7b91e200e0e5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d2ed31907f00568e6c56dfc05a9dce5') in 0.000385292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_01.prefab
-  artifactKey: Guid(c27c7521daec24863af069554ea1fb47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_01.prefab using Guid(c27c7521daec24863af069554ea1fb47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e28aa1806e4ae136d9ca5d6ef11c605') in 0.00219775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 1.297530 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab
+  artifactKey: Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Column_01_Top.prefab using Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c1cf0d8db99a7a3aca076f86da2a30') in 0.335852542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat
-  artifactKey: Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Glass.mat using Guid(e318ecb29444643f09e7c0d3dea07387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c5ae295cd1a966d40fda6236507e3aa') in 0.002349792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 1.451102 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab
+  artifactKey: Guid(0f9396310131e47e3979f1a7cb96c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Arch_01.prefab using Guid(0f9396310131e47e3979f1a7cb96c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c84b60cd93b9e781ae0aff3cc0eee30') in 0.018684958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Simple_01.prefab
-  artifactKey: Guid(a4c18952442944083b1fddc06ba477c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Wall_Simple_01.prefab using Guid(a4c18952442944083b1fddc06ba477c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c5af725818a848dda70f31c4c43252d') in 0.002621792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.790298 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab
+  artifactKey: Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Door_Left_01.prefab using Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fcc3e89f0ab0fb55a9ee2a8cf6e803b') in 0.078872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
-  artifactKey: Guid(2251e05c41a2e0b489b4326e560b2750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(2251e05c41a2e0b489b4326e560b2750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c572520e10fd9da21ee8e824d09c8e6') in 0.00320925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_Small_01.prefab
-  artifactKey: Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Floor_Small_01.prefab using Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dc599d869aac9ca47e7b1efa52c55bf') in 0.002739833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Large_01.prefab
-  artifactKey: Guid(4d57a31eab232457da9acbcc32af22cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Prefabs/Roof_Angle_Large_01.prefab using Guid(4d57a31eab232457da9acbcc32af22cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54e02d324981b23dcede89e26478e718') in 0.002891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat
-  artifactKey: Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_01.mat using Guid(91a1b05a08a334950a599b252610e8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b763559313c534afadd765fb7f24ce29') in 0.002336666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_02.mat
-  artifactKey: Guid(f2d2b923c34c69a489c89833cda46a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Neon_02.mat using Guid(f2d2b923c34c69a489c89833cda46a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da43741afcdf8f78f86f2abcd8fdd876') in 0.002362834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.659234 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage
-  artifactKey: Guid(d801612c009c9874ea7319b2d587744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage using Guid(d801612c009c9874ea7319b2d587744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0de28488b0ae5fa880751b59b70e04f6') in 0.000669541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.114706 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat
-  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Meshes/Materials/Diffuse_01.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d739a68a3d62bba16837efa1524d72e') in 0.008908542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(cfd4043fd722d9c4496ac5ae1084fa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineGlobalSettings.asset using Guid(cfd4043fd722d9c4496ac5ae1084fa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
-	UnityEngine.Rendering.Universal.URPTerrainShaderSetting, Unity.RenderPipelines.Universal.Runtime (1 object)
-	UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTerrainShaders, Unity.RenderPipelines.Universal.Runtime (1 object)
- -> (artifact id: '2bfc35507690a41e5571470efc7b569b') in 0.047092042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/Test_MapSettings.lighting
-  artifactKey: Guid(13754f745d34e1b41bb707ccd6e13245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/Test_MapSettings.lighting using Guid(13754f745d34e1b41bb707ccd6e13245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
- -> (artifact id: '76d457c85d2b7663dc8e5543002c96a5') in 0.002318542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/DefaultVolumeProfile.asset
-  artifactKey: Guid(60b5ff46efe7c094486e0124a5b0c5ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/DefaultVolumeProfile.asset using Guid(60b5ff46efe7c094486e0124a5b0c5ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1b3efc2780b14d85a7e7aebfb8f2712') in 0.003217959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(e5449cb1ea83ceb44892ee0203bb908d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Barking_Dog/3D Free Modular Kit_URP/UniversalRenderPipelineAsset_Renderer.asset using Guid(e5449cb1ea83ceb44892ee0203bb908d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2c4c88f463b25ecfd79b5f28245d8c1') in 0.003199375 seconds
+  Time since last request: 6.726606 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset
+  artifactKey: Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset using Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f8f201632b2722375d63f56fef2cb8') in 0.016541875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.199404 seconds.
-  path: Assets/Barking_Dog/3D Free Modular Kit
-  artifactKey: Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Barking_Dog/3D Free Modular Kit using Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94daf928ade2518c18a79e026db2a929') in 0.000375583 seconds
+  Time since last request: 1.085168 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting
+  artifactKey: Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_MapSettings.lighting using Guid(61dc56fce9ce3414990a49f9c17cbd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c13e2249435b81fa66320587af99458') in 0.000906458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.442687 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity
+  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b37835b7f1bb9d26ca2f0b95f612b6c4') in 0.000547541 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.454085 seconds.
+  Time since last request: 26.528243 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png
+  artifactKey: Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Ambient_01.png using Guid(0155e7c553ce645b9a03c0441f234ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e09af21463fd807fc80542b6085ab4') in 0.0094925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954398 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01.png
+  artifactKey: Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Diffuse_01.png using Guid(b2c54144d5fbb4a14b95d5e2ec07dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a80a189a3e3f7224e9614691fac86bd') in 0.006837083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519833 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Metal_01.tif
+  artifactKey: Guid(1d3de45b986d240139bd085299915265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Metal_01.tif using Guid(1d3de45b986d240139bd085299915265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b876b47fcfc2d46afae349c835277bc1') in 0.007466833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.979559 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png
+  artifactKey: Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Neon.png using Guid(b5c9448ddba954bc0afcc5c19cf42525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e01264707d32487554c47d6452054f2e') in 0.003861833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592492 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png
+  artifactKey: Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Textures/Normal_01.png using Guid(5e704b54cc0cc4015add600ce739fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ced764c112c79b2f2b2f7b2ecac011') in 0.052180334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.326760 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage
+  artifactKey: Guid(d801612c009c9874ea7319b2d587744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit - URP.unitypackage using Guid(d801612c009c9874ea7319b2d587744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0de28488b0ae5fa880751b59b70e04f6') in 0.000836125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.527950 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage
+  artifactKey: Guid(6b5816329a7a88247af7744090f40e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit - HDRP.unitypackage using Guid(6b5816329a7a88247af7744090f40e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ccd5cd2f30ac9fabb86259fc9055ab') in 0.000806167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.687605 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset
+  artifactKey: Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map/LightingData.asset using Guid(5ccf681a5a6a0d34ba50f7346e31858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e97fbf852559a101e386f89ed0c459') in 0.000838791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.520889 seconds.
   path: Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity
   artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c8ad940d482b1506ae9fe052c84911') in 0.000414875 seconds
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c8ad940d482b1506ae9fe052c84911') in 0.0003575 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.831502 seconds.
+  path: Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt
+  artifactKey: Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barking_Dog/3D Free Modular Kit/Readme_Please.txt using Guid(7f5f9a507e6414d3ba63e886f31fe808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a104c268337c63b274a6cfa5ec7748c') in 0.000875042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
