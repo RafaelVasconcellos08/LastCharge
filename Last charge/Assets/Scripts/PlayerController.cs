@@ -13,11 +13,14 @@ public class PlayerController : MonoBehaviour
     public float gravidade = -9.81f;
 
     private CharacterController controller;
+
+    private Animator animator;
     private Vector3 velocidadeVertical;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movimento = direita * horizontal + frente * vertical;
         movimento = Vector3.ClampMagnitude(movimento, 1f);
+        animator.SetBool("Andando", movimento.magnitude > 0.1f);
 
         // Rotacao do personagem
         if (movimento.magnitude > 0.1f)
